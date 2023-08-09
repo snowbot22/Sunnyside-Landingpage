@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- ICON -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">
+  <!-- TITLE -->
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <header>
+    <nav class="nav nav--mobile">
+      <figure>
+        <img src="images/logo.svg" alt="sunnyside logo">
+      </figure>
+      <figure id="mobileMenu">
+        <img src="images/icon-hamburger.svg" alt="menu icon">
+      </figure>
+      <div class="nav--mobile__submenu hidden" id="mobileSubmenu">
+        <ul class="list--reset nav--mobile__list">
+          <li>
+            About
+          </li>
+          <li>
+            Services
+          </li>
+          <li>
+            Projects
+          </li>
+          <li>
+            <button class="button button--mobile">
+              CONTACT
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="nav nav--desktop">
+      <figure class="nav--desktop__logo">
+        <img class="img--large" src="images/logo.svg" alt="sunnyside logo">
+      </figure>
+      <ul class="list--reset flex--row--nowrap nav--desktop__list">
+        <li class="cursor--pointer">
+          About
+        </li>
+        <li class="cursor--pointer">
+          Services
+        </li>
+        <li class="cursor--pointer">
+          Projects
+        </li>
+        <li class="cursor--pointer">
+          <button class="button button--desktop">
+            CONTACT
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="article--header">
+      <div class="article--header__bg">
+  
+      </div>
+      <div class="article--header__div">
+        <h1 class="article--header__title">
+          WE ARE CREATIVES
+        </h1>
+        <figure class="article--header__icon cursor--pointer" id="headerArrow">
+          <img src="images/icon-arrow-down.svg" alt="icon arrow">
+        </figure>
+      </div>
+    </article>
+    <article class="article--flex row--reverse" id="sectionTwo">
+      <div class="article--flex__image bg--yellow">
+        
+      </div>
+      <div class="article--flex__text">
+        <h2 class="article--flex__title">
+          Transform your brand
+        </h2>
+        <p class="article--flex__p">
+          We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <button class="button button--yellow">
+          LEARN MORE
+        </button>
+      </div>
+    </article>
+    <article class="article--flex">
+      <div class="article--flex__image bg--pink">
+
+      </div>
+      <div class="article--flex__text">
+        <h2 class="article--flex__title">
+          Stand out to the right audience
+        </h2>
+        <p class="article--flex__p">
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+          we’ll build and extend your brand in digital places.
+        </p>
+        <button class="button button--pink">
+          LEARN MORE
+        </button>
+      </div>
+    </article>
+    <article class="article--flex article--sections">
+      <section class="article--grid section">
+        <div class="article--grid__bg bg--green">
+  
+        </div>
+        <div class="article--grid__text">
+          <h2 class="article--grid__title color--green">
+            Graphic design
+          </h2>
+          <p class="article--grid__p color--green">
+            Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+          </p>
+        </div>
+      </section>
+      <section class="article--grid section">
+        <div class="article--grid__bg bg--blue">
+  
+        </div>
+        <div class="article--grid__text">
+          <h2 class="article--grid__title color--blue">
+            Photography
+          </h2>
+          <p class="article--grid__p color--blue">
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+          </p>
+        </div>
+      </section>
+    </article>
+    <article class="article--flex testimonials">
+      <h3 class="testimonials__title">
+        CLIENT TESTIMONIALS
+      </h3>
+      <section class="testimonials__container">
+        <div class="testimonials__card">
+          <figure>
+            <img class="testimonials__image" src="./images/image-emily.jpg" alt="client emily photo">
+          </figure>
+          <p class="testimonials__p">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <div class="testimonials__info">
+            <h4 class="testimonials__name">
+              Emily R.
+            </h4>
+            <p class="testimonials__charge">
+              Marketing Director
+            </p>
+          </div>
+        </div>
+        <div class="testimonials__card">
+          <figure>
+            <img class="testimonials__image" src="./images/image-thomas.jpg" alt="client thomas photo">
+          </figure>
+          <p class="testimonials__p">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience
+          </p>
+          <div class="testimonials__info">
+            <h4 class="testimonials__name"> 
+              Thomas S.
+            </h4>
+            <p class="testimonials__charge">
+              Chief Operating Officer
+            </p>
+          </div>
+        </div>
+        <div class="testimonials__card">
+          <figure>
+            <img class="testimonials__image" src="./images/image-jennie.jpg" alt="client jennie photo">
+          </figure>
+          <p class="testimonials__p">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <div class="testimonials__info">
+            <h4 class="testimonials__name">
+              Jennie F.
+            </h4>
+            <p class="testimonials__charge">
+              Business Owner
+            </p>
+        </div>
+      </section>
+    </article>
+    <article class="article--grid banner">
+      <div class="bg bg--1">
+        
+      </div>
+      <div class="bg bg--2">
+
+      </div>
+      <div class="bg bg--3">
+       
+      </div>
+      <div class="bg bg--4">
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <figure class="footer__logo" >
+      <img class="img--large" src="./images/logo.svg" />
+    </figure>
+    <ul class="footer__menu list--reset flex--row--nowrap">
+      <li class="cursor--pointer">
+        About
+      </li>
+      <li class="cursor--pointer">
+        Services
+      </li>
+      <li class="cursor--pointer">
+        Projects
+      </li>
+    </ul>
+    <ul class="footer__social list--reset flex--row--nowrap">
+      <li class="cursor--pointer">
+        <figure>
+          <img src="./images/icon-facebook.svg" alt="facebook icon">
+        </figure>
+      </li>
+      <li class="cursor--pointer">
+        <figure>
+          <img src="./images/icon-instagram.svg" alt="instagram icon">
+        </figure>
+      </li>
+      <li class="cursor--pointer">
+        <figure>
+          <img src="./images/icon-twitter.svg" alt="twitter icon">
+        </figure>
+      </li>
+      <li class="cursor--pointer">
+        <figure>
+          <img src="./images/icon-pinterest.svg" alt="pinterest icon">
+        </figure>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
